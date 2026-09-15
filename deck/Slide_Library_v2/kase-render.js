@@ -194,7 +194,7 @@ const KASE_TEMPLATES = {
         <div class="left">
 
           <div class="logo-row">
-            <img src="/deck/Images/powerup-logo-dark.png" height="32" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="32" style="width:auto;display:block" alt="PowerUp">
             <div class="logo-divider"></div>
             <div id="sd-client" class="client-logo-placeholder"></div>
           </div>
@@ -278,7 +278,7 @@ const KASE_TEMPLATES = {
       <div class="slide cover-slide-dark">
         <div class="left">
           <div class="logo-row">
-            <img src="/deck/Images/powerup-logo-dark.png" height="32" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="32" style="width:auto;display:block" alt="PowerUp">
             <div class="logo-divider"></div>
             <div id="sd-client" class="client-logo-placeholder"></div>
             ${logo2HTML}
@@ -766,7 +766,7 @@ const KASE_TEMPLATES = {
       <div class="slide divider-slide-dark">
         <div class="left">
           <div class="logo-mark">
-            <img src="/deck/Images/powerup-logo-white.png" height="32" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-white.png" height="32" style="width:auto;display:block" alt="PowerUp">
           </div>
           <div class="content">
             <p class="section-label" data-ks="section_label">${format(d.section_label)}</p>
@@ -793,7 +793,7 @@ const KASE_TEMPLATES = {
       <div class="slide divider-slide">
         <div class="left">
           <div class="logo-mark">
-            <img src="/deck/Images/powerup-logo-dark.png" height="32" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="32" style="width:auto;display:block" alt="PowerUp">
           </div>
           <div class="content">
             <p class="section-label" data-ks="section_label">${format(d.section_label)}</p>
@@ -889,7 +889,7 @@ const KASE_TEMPLATES = {
         </div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
           <p class="ai-footnote" data-ks="footnote">${format(d.footnote)}</p>
@@ -1128,7 +1128,7 @@ const KASE_TEMPLATES = {
         </div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -1198,7 +1198,7 @@ const KASE_TEMPLATES = {
         </div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -1276,7 +1276,7 @@ const KASE_TEMPLATES = {
         </div>
         <div class="i5-bottom">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -1408,7 +1408,7 @@ const KASE_TEMPLATES = {
         <div class="ai4-logos-row" style="${logosStyle}"></div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -1512,7 +1512,7 @@ const KASE_TEMPLATES = {
         </div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -1572,7 +1572,7 @@ const KASE_TEMPLATES = {
     document.getElementById('kase-mount').innerHTML = `
       <div class="slide end-slide">
         <div class="end-logo">
-          <img src="/deck/Images/powerup-logo-dark.png" height="28" alt="PowerUp">
+          <img src="/deck/Images/powerup-logo-dark.png" height="28" style="width:auto;display:block" alt="PowerUp">
         </div>
         <div class="end-content">
           <h1 class="end-headline" data-ks="headline">${format(d.headline)}</h1>
@@ -1633,7 +1633,7 @@ const KASE_TEMPLATES = {
         </div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
           ${bannerHTML}
@@ -1699,7 +1699,7 @@ const KASE_TEMPLATES = {
         </div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
           ${bannerHTML}
@@ -1755,7 +1755,7 @@ const KASE_TEMPLATES = {
         <div class="modules-grid">${colsHTML}</div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -1826,7 +1826,7 @@ const KASE_TEMPLATES = {
         <div class="sb-grid">${colsHTML}</div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
           ${bannerHTML}
@@ -1893,7 +1893,7 @@ const KASE_TEMPLATES = {
         </div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -1942,7 +1942,7 @@ const KASE_TEMPLATES = {
         ${bodyHTML}
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -2007,7 +2007,7 @@ const KASE_TEMPLATES = {
       <div class="slide closing-slide closing-${theme} ${fullBleed}">
         <div class="closing-body">
           <div class="closing-logo">
-            <img src="/deck/Images/${logoSrc}" height="56" alt="PowerUp">
+            <img src="/deck/Images/${logoSrc}" height="56" style="width:auto;display:block" alt="PowerUp">
           </div>
           <p class="closing-tagline" data-ks="tagline">${format(d.tagline || '')}</p>
           <div class="closing-divider"></div>
@@ -2052,7 +2052,7 @@ const KASE_TEMPLATES = {
         </div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -2304,7 +2304,7 @@ const KASE_TEMPLATES = {
         </div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -2340,7 +2340,7 @@ const KASE_TEMPLATES = {
         </div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -2423,7 +2423,7 @@ const KASE_TEMPLATES = {
 
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -2468,7 +2468,7 @@ const KASE_TEMPLATES = {
 
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -2523,7 +2523,7 @@ const KASE_TEMPLATES = {
 
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -2608,7 +2608,7 @@ const KASE_TEMPLATES = {
 
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -2643,7 +2643,7 @@ const KASE_TEMPLATES = {
 
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-white.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-white.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -2706,7 +2706,7 @@ const KASE_TEMPLATES = {
 
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -2780,7 +2780,7 @@ const KASE_TEMPLATES = {
 
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-white.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-white.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential" style="color:rgba(255,255,255,0.35)">Proprietary and confidential</span>
           </div>
         </div>
@@ -2872,7 +2872,7 @@ const KASE_TEMPLATES = {
 
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -2923,7 +2923,7 @@ const KASE_TEMPLATES = {
 
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -2973,7 +2973,7 @@ const KASE_TEMPLATES = {
 
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -3047,7 +3047,7 @@ const KASE_TEMPLATES = {
 
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -3123,7 +3123,7 @@ const KASE_TEMPLATES = {
 
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -3169,7 +3169,7 @@ const KASE_TEMPLATES = {
 
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -3241,7 +3241,7 @@ const KASE_TEMPLATES = {
 
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -3302,7 +3302,7 @@ const KASE_TEMPLATES = {
         <div class="gs-cols">${colsHTML}</div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -3364,7 +3364,7 @@ const KASE_TEMPLATES = {
         </div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -3397,7 +3397,7 @@ const KASE_TEMPLATES = {
         <div class="tg-grid">${quotesHTML}</div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -3447,7 +3447,7 @@ const KASE_TEMPLATES = {
         <div class="ap-grid">${pointsHTML}</div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -3744,7 +3744,7 @@ const KASE_TEMPLATES = {
         </div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -3822,7 +3822,7 @@ const KASE_TEMPLATES = {
         </div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
           ${d.banner ? `<div class="slide-banner" data-ks="banner">${format(d.banner)}</div>` : ''}
@@ -4003,7 +4003,7 @@ const KASE_TEMPLATES = {
 
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-white.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-white.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential" style="color:rgba(255,255,255,0.35)">Proprietary and confidential</span>
           </div>
         </div>
@@ -4082,7 +4082,7 @@ const KASE_TEMPLATES = {
         </div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
           ${d.banner ? `<div class="slide-banner" data-ks="banner">${format(d.banner)}</div>` : ''}
@@ -4138,7 +4138,7 @@ const KASE_TEMPLATES = {
         </div>` : ''}
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -4183,7 +4183,7 @@ const KASE_TEMPLATES = {
         </div>` : ''}
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -4221,7 +4221,7 @@ const KASE_TEMPLATES = {
         </div>` : ''}
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -4284,7 +4284,7 @@ const KASE_TEMPLATES = {
         </div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -4419,7 +4419,7 @@ const KASE_TEMPLATES = {
         </div>` : ''}
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -4522,7 +4522,7 @@ const KASE_TEMPLATES = {
         </div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
         </div>
@@ -4664,7 +4664,7 @@ const KASE_TEMPLATES = {
         </div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
           ${d.footnote ? `<span class="sim-bar-fn" data-ks="footnote">* ${format(d.footnote)}</span>` : ''}
@@ -4714,11 +4714,187 @@ const KASE_TEMPLATES = {
         </div>
         <div class="bottom-bar">
           <div class="logo-block">
-            <img src="/deck/Images/powerup-logo-dark.png" height="16" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp">
             <span class="confidential">Proprietary and confidential</span>
           </div>
           ${d.banner ? `<div class="slide-banner" data-ks="banner">${format(d.banner)}</div>` : ''}
         </div>
+      </div>
+    `;
+    applySize(d._sizes);
+  },
+
+  // ─── MASTERY TABLE ───────────────────────────────────────────────────────────
+  mastery_table: function(d) {
+    const palettes = {
+      amber:  { border1:'#d97706', border2:'#92400e', accent:'#92400e', badge_bg:'#fef3c7', badge_text:'#78350f' },
+      teal:   { border1:'#14b8a6', border2:'#0f766e', accent:'#0f766e', badge_bg:'#ccfbf1', badge_text:'#0f766e' },
+      blue:   { border1:'#2563eb', border2:'#1e40af', accent:'#1e40af', badge_bg:'#eff6ff', badge_text:'#1e40af' },
+      purple: { border1:'#7c3aed', border2:'#4c1d95', accent:'#4c1d95', badge_bg:'#f5f3ff', badge_text:'#4c1d95' }
+    };
+    const p = palettes[d.track_color] || palettes.amber;
+    const mt = document.getElementById('kase-mount');
+
+    function podList(str, path, isAF) {
+      const lines = String(str).split('\n').filter(l => l.trim());
+      let lastGroup = null;
+      return `<div data-ks="${path}">${lines.map(line => {
+        if (line.startsWith('##')) {
+          return `<div class="mast-stack-header">${format(line.slice(2).trim())}</div>`;
+        }
+        const gm = line.match(/^(\d+|[A-Z]+)\./i);
+        const group = gm ? gm[1] : null;
+        const needsBreak = !isAF && lastGroup && group && group !== lastGroup;
+        lastGroup = group;
+        const rx = line.match(/^([A-Za-z0-9.]+)\s+(.+)/);
+        const numColor = isAF ? 'rgba(255,255,255,0.9)' : p.accent;
+        const content = rx
+          ? `<span class="mast-pod-num" style="color:${numColor}">${rx[1]}</span> ${format(rx[2])}`
+          : format(line);
+        return `<div class="mast-pod-item${needsBreak ? ' mast-group-break' : ''}">${content}</div>`;
+      }).join('')}</div>`;
+    }
+
+    function mastRow(n, rowClass, borderColor, isAF) {
+      const name  = d[`mastery_${n}_name`] || '';
+      const level = d[`mastery_${n}_level_label`] || `MASTERY ${n}`;
+      if (!name && !d[`mastery_${n}_stack_1_pods`] && !d[`mastery_${n}_pods`]) return '';
+      const meta = d[`mastery_${n}_meta`] || '';
+      const badge = isAF ? 'mast-mastery-badge mast-badge-af' : 'mast-mastery-badge';
+      const badgeStyle = isAF ? '' : ` style="background:${p.badge_bg};color:${p.badge_text}"`;
+
+      // Aligned layout: per-stack pod lists defined
+      if (d[`mastery_${n}_stack_1_pods`] !== undefined) {
+        const stacks = [];
+        for (let s = 1; s <= 5; s++) {
+          const sName = d[`mastery_${n}_stack_${s}`];
+          const sPods = d[`mastery_${n}_stack_${s}_pods`];
+          if (sName || sPods) stacks.push({ name: sName || '', pods: sPods || '', s });
+          else break;
+        }
+        const span = stacks.length;
+        return stacks.map((st, i) => `
+          <tr class="${rowClass}${i > 0 ? ' mast-row-continuation' : ''}">
+            ${i === 0 ? `<td class="mast-cell mast-cell-mastery" rowspan="${span}" style="border-left:4px solid ${borderColor}">
+              <span class="${badge}"${badgeStyle} data-ks="mastery_${n}_level">${level}</span>
+              ${name ? `<p class="mast-mastery-name" data-ks="mastery_${n}_name">${format(name)}</p>` : ''}
+              ${meta ? `<p class="mast-mastery-meta" data-ks="mastery_${n}_meta">${format(meta)}</p>` : ''}
+            </td>` : ''}
+            <td class="mast-cell mast-cell-stacks">
+              ${st.name ? `<p class="mast-stack" data-ks="mastery_${n}_stack_${st.s}">${format(st.name)}</p>` : ''}
+            </td>
+            <td class="mast-cell mast-cell-pods">
+              ${podList(st.pods, `mastery_${n}_stack_${st.s}_pods`, isAF)}
+            </td>
+          </tr>`).join('');
+      }
+
+      // Original layout
+      const stack1 = d[`mastery_${n}_stack_1`] || '';
+      const stack2 = d[`mastery_${n}_stack_2`] || '';
+      const stack3 = d[`mastery_${n}_stack_3`] || '';
+      const pods   = d[`mastery_${n}_pods`]    || '';
+
+      // ## prefix = render as pill header, not bullet
+      const stackItems = [stack1,stack2,stack3].filter(Boolean);
+      const sPill = stackItems.length && stackItems[0].startsWith('##') ? stackItems[0].slice(2).trim() : null;
+      const sBullets = sPill ? stackItems.slice(1) : stackItems;
+      const podLines = pods.split('\n').filter(l => l.trim());
+      const pPill = podLines.length && podLines[0].startsWith('##') ? podLines[0].slice(2).trim() : null;
+      const pBullets = pPill ? podLines.slice(1) : podLines;
+
+      return `
+        <tr class="${rowClass}">
+          <td class="mast-cell mast-cell-mastery" style="border-left:4px solid ${borderColor}">
+            ${(!isAF && d.topic_pill === false)
+              ? `<p class="mast-topic-text" data-ks="mastery_${n}_level">${format(level)}</p>`
+              : `<span class="${badge}"${badgeStyle} data-ks="mastery_${n}_level">${level}</span>`}
+            ${name ? `<p class="mast-mastery-name" data-ks="mastery_${n}_name">${format(name)}</p>` : ''}
+            ${meta ? `<p class="mast-mastery-meta" data-ks="mastery_${n}_meta">${format(meta)}</p>` : ''}
+          </td>
+          <td class="mast-cell mast-cell-stacks">
+            ${d.use_bullets
+              ? `${sPill ? `<span class="mast-col-pill" style="background:${p.badge_bg};color:${p.badge_text}" data-ks="mastery_${n}_stack_1">${format(sPill)}</span>` : ''}<ul class="mast-bullet-list">${sBullets.map((s,i) => `<li class="mast-bullet-item" data-ks="mastery_${n}_stack_${sPill ? i+2 : i+1}">${format(s)}</li>`).join('')}</ul>`
+              : `${stack1 ? `<p class="mast-stack" data-ks="mastery_${n}_stack_1">${format(stack1)}</p>` : ''}
+            ${stack2 ? `<p class="mast-stack${isAF ? ' mast-stack-sub' : ''}" data-ks="mastery_${n}_stack_2">${format(stack2)}</p>` : ''}
+            ${stack3 ? `<p class="mast-stack" data-ks="mastery_${n}_stack_3">${format(stack3)}</p>` : ''}`
+            }
+          </td>
+          <td class="mast-cell mast-cell-pods">
+            ${d.use_bullets
+              ? `${pPill ? `<span class="mast-col-pill" style="background:${p.badge_bg};color:${p.badge_text}" data-ks="mastery_${n}_pods">${format(pPill)}</span>` : ''}<ul class="mast-bullet-list">${pBullets.map(item => `<li class="mast-bullet-item">${format(item.replace(/^--\s*/,''))}</li>`).join('')}</ul>`
+              : podList(pods, `mastery_${n}_pods`, isAF)
+            }
+          </td>
+        </tr>`;
+    }
+
+    const logoHtml = `<div class="logo-block"><img src="/deck/Images/powerup-logo-dark.png" height="16" style="width:auto;display:block" alt="PowerUp"><span class="confidential">Proprietary and confidential</span></div>`;
+
+    const audienceRow = d.audience ? `
+      <tr class="mast-row-audience">
+        <td colspan="3" class="mast-cell mast-cell-audience" data-ks="audience">
+          <span class="mast-audience-label">Audience</span>
+          <span class="mast-audience-value">${format(d.audience)}</span>
+        </td>
+      </tr>` : '';
+
+    mt.innerHTML = `
+      <div class="slide content-slide mast-slide">
+        <p class="eyebrow" data-ks="eyebrow">${format(d.eyebrow)}</p>
+        <p class="headline" data-ks="headline">${format(d.headline)}</p>
+        <div class="mast-table-wrap">
+          <table class="mast-table">
+            <colgroup>
+              <col style="width:${d.use_bullets ? '22%' : '25%'}">
+              <col style="width:${d.use_bullets ? '39%' : '25%'}">
+              <col style="width:${d.use_bullets ? '39%' : '50%'}">
+            </colgroup>
+            <thead>
+              <tr>
+                <th class="mast-th-mastery" ${d.use_bullets ? 'style="width:22%"' : ''}>${format(d.col_header_1 || 'Mastery')}</th>
+                <th class="mast-th-stacks" ${d.use_bullets ? 'style="width:39%"' : ''}>${format(d.col_header_2 || 'Stack')}</th>
+                <th class="mast-th-pods" ${d.use_bullets ? 'style="width:39%"' : ''}>${format(d.col_header_3 || 'Pods')}</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${audienceRow}
+              ${mastRow(1, 'mast-row-1', p.border1, false)}
+              ${mastRow(2, 'mast-row-2', p.border2, false)}
+              ${d.mastery_3_normal
+                ? mastRow(3, 'mast-row-2', p.border2, false) + ((d.mastery_4_name || d.mastery_4_level_label) ? mastRow(4, 'mast-row-1', p.border1, false) : '')
+                : d.takeaway
+                ? (d.mastery_3_name ? mastRow(3, 'mast-row-1', p.border1, false) : '') + (d.mastery_4_name ? mastRow(4, 'mast-row-2', p.border2, false) : '') + (d.use_bullets ? `
+                  <tr class="mast-row-af">
+                    <td class="mast-cell mast-cell-mastery" style="border-left:4px solid rgba(255,255,255,0.25)">
+                      <span class="mast-mastery-badge mast-badge-af" data-ks="takeaway_label">${format(d.takeaway_label || 'YOU BUILD')}</span>
+                      ${d.takeaway_name ? `<p class="mast-mastery-name" data-ks="takeaway_name">${format(d.takeaway_name)}</p>` : ''}
+                      ${d.takeaway_meta ? `<p class="mast-mastery-meta" data-ks="takeaway_meta">${format(d.takeaway_meta)}</p>` : ''}
+                    </td>
+                    <td colspan="2" class="mast-cell">
+                      <ul class="mast-bullet-list">${d.takeaway.split('\n').filter(l => l.trim()).map(item => `<li class="mast-bullet-item">${format(item.replace(/^--\s*/,''))}</li>`).join('')}</ul>
+                    </td>
+                  </tr>${d.takeaway_2 ? `
+                  <tr class="mast-row-af">
+                    <td class="mast-cell mast-cell-mastery" style="border-left:4px solid rgba(255,255,255,0.25)">
+                      <span class="mast-mastery-badge mast-badge-af" data-ks="takeaway_2_label">${format(d.takeaway_2_label || 'BY THE END')}</span>
+                    </td>
+                    <td colspan="2" class="mast-cell">
+                      <ul class="mast-bullet-list">${d.takeaway_2.split('\n').filter(l => l.trim()).map(item => `<li class="mast-bullet-item">${format(item.replace(/^--\s*/,''))}</li>`).join('')}</ul>
+                    </td>
+                  </tr>` : ''}` : `
+                  <tr class="mast-row-af">
+                    <td colspan="3" class="mast-cell mast-cell-takeaway">
+                      <span class="mast-mastery-badge mast-badge-af" data-ks="takeaway_label">${format(d.takeaway_label || 'YOU BUILD')}</span>
+                      <div class="mast-takeaway-content" data-ks="takeaway">${format(d.takeaway)}</div>
+                    </td>
+                  </tr>`)
+                : mastRow(3, 'mast-row-af', 'rgba(255,255,255,0.25)', true)
+              }
+            </tbody>
+          </table>
+        </div>
+        <div class="bottom-bar">${logoHtml}${d.banner ? `<div class="slide-banner" data-ks="banner">${format(d.banner)}</div>` : ''}</div>
       </div>
     `;
     applySize(d._sizes);

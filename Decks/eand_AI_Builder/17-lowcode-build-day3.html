@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Low-Code Build — Day 3</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="/deck/Slide_Library_v2/kase-styles.css?v=3" rel="stylesheet">
+</head>
+<body>
+<script>
+const SLIDE_DATA = {
+  "template": "mastery_table",
+  "eyebrow": "LOW-CODE BUILD · DAY 3",
+  "headline": "[Day 3] Multi-Agent Systems, MCP & Observability",
+  "track_color": "blue",
+  "use_bullets": true,
+  "col_header_1": "Session",
+  "col_header_2": "Topics Covered",
+  "col_header_3": "Hands-on",
+  "mastery_1_level_label": "SESSION 1",
+  "mastery_1_name": "Multi-Agent Orchestration",
+  "mastery_1_stack_1": "**Architecture patterns** — Supervisor-led vs. Swarm-style collaboration",
+  "mastery_1_stack_2": "**Role clarity & context** — planner/retriever/analyser/reviewer, sequential vs. parallel in n8n",
+  "mastery_1_pods": "**Design** a Supervisor-led build (e.g. Travel Planner: Hotel, Transport & Itinerary agents)\n**Assign** tasks via the Supervisor and validate intermediate outputs\n**Run** agents in parallel where possible and merge outputs",
+  "mastery_2_level_label": "SESSION 2",
+  "mastery_2_name": "MCP-Style Interoperability",
+  "mastery_2_stack_1": "**Why MCP** — avoiding tightly-coupled agent-to-tool integrations",
+  "mastery_2_stack_2": "**n8n as the layer** — host/client/server roles, capability discovery & auditable execution",
+  "mastery_2_pods": "**Design** a standardised agent-to-tool interface with consistent input/output schemas\n**Create** a reusable 'Agent Invocation Contract' — context in, action allowed, output required\n**Enforce** allowed actions and log every agent-triggered action for audit",
+  "mastery_3_level_label": "SESSION 3",
+  "mastery_3_name": "Evaluation & Observability",
+  "mastery_3_stack_1": "**Evaluation dimensions** — workflow-level (routing, escalation) & response-level (accuracy, grounding)",
+  "mastery_3_stack_2": "**Scoring & tracing** — Correct / Needs review / Unsafe, plus step-level observability signals",
+  "mastery_3_pods": "**Define** an evaluation dataset of enterprise scenarios with expected behaviour\n**Score** agent runs against the rubric and document results\n**Trace** a full execution to explain why the system behaved as it did",
+  "takeaway_label": "DAY 3 OUTCOME",
+  "takeaway_meta": "Artifacts you walk away with",
+  "takeaway": "**A working supervisor-led multi-agent system**, built and tested end to end\n**An MCP-style Agent Invocation Contract**, reusable across agents and tools\n**An evaluation rubric + observability traces** you can defend to a reviewer",
+  "_sizes": {}
+};
+</script>
+<div id="kase-mount"></div>
+<script src="/deck/Slide_Library_v2/kase-render.js?v=3"></script>
+</body>
+</html>

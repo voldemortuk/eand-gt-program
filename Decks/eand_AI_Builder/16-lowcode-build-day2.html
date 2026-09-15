@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Low-Code Build — Day 2</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="/deck/Slide_Library_v2/kase-styles.css?v=3" rel="stylesheet">
+</head>
+<body>
+<script>
+const SLIDE_DATA = {
+  "template": "mastery_table",
+  "eyebrow": "LOW-CODE BUILD · DAY 2",
+  "headline": "[Day 2] First Agent, RAG & Reasoning",
+  "track_color": "blue",
+  "use_bullets": true,
+  "col_header_1": "Session",
+  "col_header_2": "Topics Covered",
+  "col_header_3": "Hands-on",
+  "mastery_1_level_label": "SESSION 1",
+  "mastery_1_name": "Your First n8n Agent",
+  "mastery_1_stack_1": "**Agent workflow basics** — an n8n agent that classifies, routes and escalates",
+  "mastery_1_stack_2": "**Human-in-the-loop** — approval steps for high-risk or low-confidence cases",
+  "mastery_1_stack_3": "**Tool/MCP overview** — how an agent calls out to external capabilities",
+  "mastery_1_pods": "**Build** a Smart Task Intake & Routing Agent: web form → AI classifies request → n8n routes\n**Display** structured output in a connected app\n**Add** a human-approval step for high-risk requests, and log approved tasks automatically",
+  "mastery_2_level_label": "SESSION 2",
+  "mastery_2_name": "RAG & Vector Databases",
+  "mastery_2_stack_1": "**RAG core components** — loader, chunker, embedder, vector store, retriever",
+  "mastery_2_stack_2": "**Vector DB basics** — semantic similarity search vs. keyword search",
+  "mastery_2_stack_3": "**Options** — ChromaDB (local) · Pinecone (managed) · FAISS (offline)",
+  "mastery_2_pods": "**Load** a small set of documents and apply recursive chunking with overlap\n**Create** a vector index and insert embeddings with metadata\n**Query** for the top-k relevant chunks and inspect the results",
+  "mastery_3_level_label": "SESSION 3",
+  "mastery_3_name": "End-to-End RAG + ReAct Agent",
+  "mastery_3_stack_1": "**Grounded generation** — retrieval + query → LLM, with citations",
+  "mastery_3_stack_2": "**Safety** — a 'no-answer' fallback below a confidence threshold",
+  "mastery_3_stack_3": "**ReAct loop** — Reason → Act → Observe → repeat or final answer",
+  "mastery_3_pods": "**Build** a domain-specific RAG assistant with citation-backed answers\n**Add** safe no-answer handling for out-of-scope queries\n**Apply** the ReAct loop to combine retrieval with a second tool (e.g. a calculator or search)",
+  "takeaway_label": "DAY 2 OUTCOME",
+  "takeaway_meta": "Artifacts you walk away with",
+  "takeaway": "**A first working n8n agent** — Task Intake & Routing, human-in-the-loop included\n**A grounded RAG pipeline** — chunked, embedded, indexed and queryable\n**A ReAct reasoning agent** that retrieves, reasons and safely says 'I don't know'",
+  "_sizes": {}
+};
+</script>
+<div id="kase-mount"></div>
+<script src="/deck/Slide_Library_v2/kase-render.js?v=3"></script>
+</body>
+</html>
