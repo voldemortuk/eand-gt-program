@@ -1656,7 +1656,7 @@ em     { font-style: italic; }
 .mt-table    { flex: 0 0 auto; display: flex; flex-direction: column; border: 1.5px solid #262533; border-radius: 10px; overflow: hidden; min-height: 0; margin: auto 0 20px; }
 
 /* Column header row */
-.mt-thead    { display: grid; grid-template-columns: 220px 1fr 200px 84px; background: #262533; flex-shrink: 0; }
+.mt-thead    { display: grid; grid-template-columns: 220px 1fr 280px 90px; background: #262533; flex-shrink: 0; }
 .mt-th       { font-size: 12px; font-weight: 700; color: #ffffff; padding: 11px 14px; letter-spacing: 0.08em; text-transform: uppercase; text-align: center; border-right: 1px solid rgba(255,255,255,0.12); }
 .mt-th:last-child { border-right: none; }
 
@@ -1665,7 +1665,7 @@ em     { font-style: italic; }
    min-height driven by line count) so row density stays the same whether a table has
    4 rows or 6 — the tbody sizes to its rows' natural height instead of inflating them */
 .mt-tbody    { flex: 0 0 auto; display: flex; flex-direction: column; overflow: hidden; }
-.mt-row      { display: grid; grid-template-columns: 220px 1fr 200px 84px; border-top: 1px solid #dce2ee; min-height: 0; }
+.mt-row      { display: grid; grid-template-columns: 220px 1fr 280px 90px; border-top: 1px solid #dce2ee; min-height: 0; }
 
 /* Module cell */
 .mt-mod      { display: flex; flex-direction: column; justify-content: center; padding: 8px 12px; border-right: 1px solid rgba(255,255,255,0.15); background: #262533; overflow: hidden; }
