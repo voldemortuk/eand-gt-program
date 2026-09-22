@@ -1861,7 +1861,7 @@ const KASE_TEMPLATES = {
       );
 
       return `
-        <div class="mt-row" style="flex:${lineCount}">
+        <div class="mt-row" style="flex:0 0 auto;min-height:${lineCount * 58}px">
           <div class="mt-mod ${colorClass}">
             ${renderContent(row.module || '', 'mt-mod-text', 'mt-mod-text', `rows[${i}].module`)}
             ${badgeHTML}

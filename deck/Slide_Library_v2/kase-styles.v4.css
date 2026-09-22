@@ -50,7 +50,10 @@ body {
   margin-top: auto;
 }
 
-.logo-block { display: flex; flex-direction: column; gap: 4px; }
+/* align-items: flex-start is required — a column flex container defaults to stretch on
+   the cross-axis, which stretches the logo img to the width of the "Proprietary and
+   confidential" text beneath it and distorts its aspect ratio */
+.logo-block { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; }
 .logo-block img { height: 16px; width: auto; display: block; }
 .confidential { font-size: 9px; color: #94a3b8; letter-spacing: 0.04em; }
 
@@ -607,6 +610,7 @@ body {
   left: 60px;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 4px;
   opacity: 0.4;
 }
@@ -1646,8 +1650,10 @@ em     { font-style: italic; }
 .mt-header   { flex-shrink: 0; margin-bottom: 12px; }
 /* .mt-subhead replaced by shared .slide-sub */
 
-/* Table shell */
-.mt-table    { flex: 1; display: flex; flex-direction: column; border: 1.5px solid #262533; border-radius: 10px; overflow: hidden; min-height: 0; }
+/* Table shell — sizes to its own content (rows no longer stretch to fill, see
+   .mt-tbody below), so a short table's border hugs its rows instead of leaving a gap
+   inside the box; any leftover vertical space sits below the table as plain margin */
+.mt-table    { flex: 0 0 auto; display: flex; flex-direction: column; border: 1.5px solid #262533; border-radius: 10px; overflow: hidden; min-height: 0; margin-bottom: 20px; }
 
 /* Column header row */
 .mt-thead    { display: grid; grid-template-columns: 220px 1fr 200px 84px; background: #262533; flex-shrink: 0; }
@@ -1655,7 +1661,10 @@ em     { font-style: italic; }
 .mt-th:last-child { border-right: none; }
 
 /* Data rows */
-.mt-tbody    { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
+/* Rows no longer stretch to fill (kase-render.v4.js sets flex:0 0 auto per row with a
+   min-height driven by line count) so row density stays the same whether a table has
+   4 rows or 6 — the tbody sizes to its rows' natural height instead of inflating them */
+.mt-tbody    { flex: 0 0 auto; display: flex; flex-direction: column; overflow: hidden; }
 .mt-row      { display: grid; grid-template-columns: 220px 1fr 200px 84px; border-top: 1px solid #dce2ee; min-height: 0; }
 
 /* Module cell */
