@@ -766,7 +766,7 @@ const KASE_TEMPLATES = {
       <div class="slide divider-slide-dark">
         <div class="left">
           <div class="logo-mark">
-            <img src="/deck/Images/powerup-logo-white.png" height="32" style="width:auto;display:block" alt="PowerUp">
+            <img src="/deck/Images/powerup-logo-dark.png" height="32" style="width:auto;display:block" alt="PowerUp">
           </div>
           <div class="content">
             <p class="section-label" data-ks="section_label">${format(d.section_label)}</p>

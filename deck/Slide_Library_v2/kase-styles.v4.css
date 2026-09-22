@@ -486,7 +486,8 @@ body {
   padding: 52px 44px 52px 60px;
 }
 
-.divider-slide-dark .logo-mark { margin-bottom: auto; }
+/* Same treatment as the dark cover / closing slide: colored logo on a light pill so it stays visible on the dark background */
+.divider-slide-dark .logo-mark { margin-bottom: auto; display: inline-flex; align-self: flex-start; background: #f7f9fc; padding: 10px 20px; border-radius: 10px; }
 
 .divider-slide-dark .content {
   flex: 1;
