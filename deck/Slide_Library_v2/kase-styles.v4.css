@@ -1582,6 +1582,8 @@ em     { font-style: italic; }
 
 .closing-body     { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0 80px; gap: 0; }
 .closing-logo     { margin-bottom: 20px; }
+/* On dark, the colored logo's navy wordmark needs a light pill behind it to stay visible, same treatment as the dark cover */
+.closing-dark .closing-logo { background: #f7f9fc; padding: 10px 20px; border-radius: 10px; display: inline-flex; }
 .closing-tagline  { font-family: 'DM Serif Display', Georgia, serif; font-size: 44px; font-weight: 400; text-align: center; line-height: 1.2; letter-spacing: -0.02em; margin: 0 0 24px; }
 .closing-dark  .closing-tagline { color: #ffffff; }
 .closing-light .closing-tagline { color: #262533; }

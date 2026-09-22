@@ -1993,7 +1993,7 @@ const KASE_TEMPLATES = {
   // ─────────────────────────────────────────────────────────────────────────
   closing: function(d) {
     const theme   = d.theme || 'dark';
-    const logoSrc = theme === 'dark' ? 'powerup-logo-white.png' : 'powerup-logo-dark.png';
+    const logoSrc = 'powerup-logo-dark.png';
 
     const contactsHTML = (d.contacts || []).map((c, i) => `
       <div class="closing-contact">
